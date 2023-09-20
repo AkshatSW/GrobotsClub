@@ -45,10 +45,11 @@ Before you start contributing, make sure you have the following prerequisites in
      git clone <repository-url>
      ```
 
-3. **Activate the Virtual Environment:**
+3. **Activate the Virtual Environment: **
    - Ensure that your virtual environment is activated:
      - On Windows: `grobots-env\Scripts\activate`
      - On macOS and Linux: `source grobots-env/bin/activate`
+     - Additionally you can press ctrl+p, and create a new enviormnent`
 
 4. **Create a New Branch:**
    - Create a new branch for your changes:

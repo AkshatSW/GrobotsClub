@@ -13,9 +13,14 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/mrz5svx.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bellaboo&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
 
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine-ie11.js" integrity="sha512-6m6AtgVSg7JzStQBuIpqoVuGPVSAK5Sp/ti6ySu6AjRDa1pX8mIl1TwP9QmKXU+4Mhq/73SzOk6mbNvyj9MPzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180"
@@ -55,12 +60,77 @@
     }
 }
 
+      /* CSS for the bouncing scroll down animation  */
+      #section10 a {
+        padding-top: 60px;
+    }
+
+    #section10 a span {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        width: 30px;
+        height: 50px;
+        margin-left: -15px;
+        border: 2px solid #fff;
+        border-radius: 50px;
+        box-sizing: border-box;
+    }
+
+    #section10 a span::before {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        content: '';
+        width: 6px;
+        height: 6px;
+        margin-left: -3px;
+        background-color: #fff;
+        border-radius: 100%;
+        -webkit-animation: sdb10 2s infinite;
+        animation: sdb10 2s infinite;
+        box-sizing: border-box;
+    }
+
+    @-webkit-keyframes sdb10 {
+        0% {
+            -webkit-transform: translate(0, 0);
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+        }
+        80% {
+            -webkit-transform: translate(0, 20px);
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes sdb10 {
+        0% {
+            transform: translate(0, 0);
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+        }
+        80% {
+            transform: translate(0, 20px);
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
     </style>
 
 </head>
 
 <body>
-    <header>
         <nav x-data="{ isOpen: false }" class="bg-white shadow dark:bg-gray-900">
             <div class="container px-6 py-4 mx-auto">
                 <div class="lg:flex lg:items-center lg:justify-between">
@@ -69,7 +139,7 @@
                             <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
                                 href="#">
                                 <img src="{{ url_for('static', filename='assets/images/logo.png') }}" width="70%"
-                                    alt="Your Logo" style="max-width: 5rem; height: auto;">
+                                    alt="Grobots Logo" style="max-width: 5rem; height: auto;">
                             </a>
                         </div>
                         <!-- Mobile menu button -->
@@ -130,7 +200,6 @@
                 </div>
             </div>
         </nav>
-    </header>
 
     <!-- Body -->
 

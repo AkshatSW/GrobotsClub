@@ -2,71 +2,159 @@
 {% block body %}
 
 
+
+
+<section>
+   <!-- Component Code -->
+
+<div class="relative h-screen w-full flex items-center justify-center text-center bg-cover bg-center" style="background-image:url('https://github.com/AkshatSW/GrobotsClub/blob/main/static/assets/images/herobg.png?raw=true');">
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-75"></div>
+    
+    <main class="px-4 sm:px-6 lg:px-8 z-10">
+          <div class="text-center">
+            <h2 class="text-4xl tracking-tight leading-10 font-medium sm:text-5xl text-white sm:leading-none md:text-6xl" style="font-family: 'Borel', cursive;">
+              <span class="text-indigo-600 font-bold ">Robotics Club ;</span> Grobots!
+            </h2>
+            <p class="mt-3 text-white sm:mt-5 sm:text-md sm:max-w-xl sm:mx-auto md:mt-5" style="font-family: 'Borel', cursive;"> 
+SRMCEM            </p>
+              
+
+          </div>
+         
+        </main>
+        <div id="section10" >
+          <a href="#">
+              <span></span>
+          </a>
+      </div>
+  </div>
+ 
+  
+</section>
+
+
  <!-- Section: Who We Are -->
  <section class="bg-gray-100 py-12">
     <div class="container mx-auto text-center">
-        <h2 class="text-3xl font-semibold">Who We Are</h2>
-        <p class="mt-4 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
+        <h2 class="text-3xl font-semibold">Our Story</h2>
+        <div style="padding: 2rem;">
+        <p class="mt-auto justify-center text-gray-600" >Welcome to Grobots, the official robotics club of Shri Ramswaroop Memorial College of Engineering and Management, Lucknow, since 2013-14. We're all about making robotics simple and fun. Through hands-on workshops, we break down complex concepts into easy-to-understand lessons, catering to beginners and enthusiasts alike. Our passion extends to organizing exciting robotics events, from local competitions to big ones like IIT Lucknow. Our college, SRMCEM, has been our strong support. Our accomplished seniors, some of whom have started their own robotics-focused startups, serve as a source of inspiration. Join us at Grobots, where we make robotics accessible to all and celebrate the joy of building and competing together.</p>
+   
+      </div>   </div>
 </section>
 
-<!-- Section: What We Do -->
-<section class="bg-white py-12">
-    <div class="container mx-auto text-center">
-        <h2 class="text-3xl font-semibold">What We Do</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mt-8">
-            <!-- Subsection: Robo Race -->
-            <div class="bg-gray-200 rounded-lg shadow-md">
-                <img src="robo_race_image.jpg" alt="Robo Race" class="w-full h-48 object-cover rounded-t-lg">
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold">Robo Race</h3>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-            <!-- Subsection: Robo Soccer -->
-            <div class="bg-gray-200 rounded-lg shadow-md">
-                <img src="robo_soccer_image.jpg" alt="Robo Soccer" class="w-full h-48 object-cover rounded-t-lg">
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold">Robo Soccer</h3>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-            <!-- Subsection: Autonomous -->
-            <div class="bg-gray-200 rounded-lg shadow-md">
-                <img src="autonomous_image.jpg" alt="Autonomous" class="w-full h-48 object-cover rounded-t-lg">
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold">Autonomous</h3>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-            <!-- Subsection: MegaWar -->
-            <div class="bg-gray-200 rounded-lg shadow-md">
-                <img src="megawar_image.jpg" alt="MegaWar" class="w-full h-48 object-cover rounded-t-lg">
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold">MegaWar</h3>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-            <!-- Subsection: Semi-Autonomous -->
-            <div class="bg-gray-200 rounded-lg shadow-md">
-                <img src="semi_autonomous_image.jpg" alt="Semi-Autonomous" class="w-full h-48 object-cover rounded-t-lg">
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold">Semi-Autonomous</h3>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-            <!-- Subsection: MiniWar -->
-            <div class="bg-gray-200 rounded-lg shadow-md">
-                <img src="miniwar_image.jpg" alt="MiniWar" class="w-full h-48 object-cover rounded-t-lg">
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold">MiniWar</h3>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
+<!-- Section: tech fest -->
+<section class="relative h-full bg-cover bg-center" style="background-image: url('');">
+  <h2 class="text-3xl font-semibold text-black text-center " >Tech Fests</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 w-full " style="padding: 3rem; ">
+
+
+    <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+      <img class="object-cover w-full h-84" src="{{ url_for('static', filename='assets/images/gantavya_2023.jpg') }} "  alt="Gantavya 2023"/>
+    
+      <div class="absolute bottom-0 left-0 px-6 py-4 bg-black bg-opacity-50 w-full  ">
+        <h4 class="mb-3 text-xl font-semibold tracking-tight text-white ">Gantavya 2023 (mini) </h4>
+        <!-- <p class="leading-normal text-gray-100">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p> -->
+      </div>
+      </div>
+      
+      <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+        <img class="object-cover w-full h-full"  src="https://lh3.googleusercontent.com/pw/AIL4fc_aTPs-HWOjz7OL5AXxF8rEi6A7YQOojOlZ4_EfRv4NpAw34k3NYUWxfJ4-CA-hKHIONK8dKcl9_nVBFZTSvVr9G-oDMHGDB_6ALSrJTisMOgQc1CKdd5PFLQOOuhuH9iXkibCeCMC2n5_0imRvY1FfLw=w1359-h906-s-no?authuser=0"alt="Gantavya 2022"/>
+      
+      
+        <div class="absolute bottom-0 left-0 px-6 py-4 bg-black bg-opacity-50 w-full content-center">
+          <h4 class="mb-3 text-xl font-semibold tracking-tight text-white ali">Gantavya 2022</h4>
         </div>
-    </div>
-</section>
+        </div>
 
+        <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+          <img class="object-cover w-full h-84 filter blur-md" src="https://lh3.googleusercontent.com/pw/AIL4fc_aTPs-HWOjz7OL5AXxF8rEi6A7YQOojOlZ4_EfRv4NpAw34k3NYUWxfJ4-CA-hKHIONK8dKcl9_nVBFZTSvVr9G-oDMHGDB_6ALSrJTisMOgQc1CKdd5PFLQOOuhuH9iXkibCeCMC2n5_0imRvY1FfLw=w1359-h906-s-no?authuser=0" alt="Flower and sky"/>
+        
+          <div class="absolute bottom-0 left-0 px-6 py-4 bg-black bg-opacity-50 w-full h-full">
+            <h4 class="mb-3 text-xl font-semibold tracking-tight text-white">Gantavya 2019</h4>
+            <p class="leading-normal text-gray-100"> Coming soon</p>
+          </div>
+          </div>
+
+         
+    
+  </div>
+  </section>
+ 
+<!-- Initiavtives -->
+
+<section class="relative  bg-blueGray-50">
+  <div class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+        
+          <div class="container relative mx-auto">
+            <div class="items-center flex flex-wrap">
+              <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                <div class="pr-12">
+                  <h1 class="text-black
+                   font-semibold text-5xl">
+                   Initiatives    
+                  </h1>
+                  <p class="mt-4 text-lg text-blueGray-200">
+                    Here are the steps we've taken so far in our mission to educate the world about robotics.                   
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px" style="transform: translateZ(0px)">
+            <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+              <polygon class="text-blueGray-200 fill-current" points="2560 0 2560 100 0 100"></polygon>
+            </svg>
+          </div>
+        </div>
+        <section class="pb-10 bg-blueGray-200 -mt-24">
+          <div class="container mx-auto px-4">
+            <div class="flex flex-wrap">
+              <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div class="px-4 py-5 flex-auto">
+                  <a href="http://" target="_blank" rel="noopener noreferrer">  <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                      <i class="fas fa-award"></i>
+                    </div>
+                    <h6 class="text-xl font-semibold  ">Empowering Young Minds</h6>
+                    <p class="mt-2 mb-4 text-blueGray-500">
+                      Empowering Minds at two of the most esteemed schools in Lucknow, <span class="font-semibold"> La Martiniere Girls College and Study Hall School </span>– Our Journey of Excellence.</p>
+                  </div>
+                </a>
+                </div>
+              </div>
+              <div class="w-full md:w-4/12 px-4 text-center">
+                <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
+                      <i class="fas fa-retweet"></i>
+                    </div>
+                    <h6 class="text-xl font-semibold">Patents  </h6>
+                    <p class="mt-2 mb-4 text-blueGray-500">
+Patents have been made under the name of the robotics club of the college and the memebers of club.                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+                <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                      <i class="fas fa-fingerprint"></i>
+                    </div>
+                    <h6 class="text-xl font-semibold">Robotics Classes </h6>
+                    <p class="mt-2 mb-4 text-blueGray-500">
+The club  have been continuously conduting robotics classes for students of junior classes and other schools as well                   </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+             
+        </section> 
+              </section>
+
+
+ 
 <!-- Section: Achievements -->
 <section class="bg-gray-100 py-12">
     <div class="container mx-auto text-center">
