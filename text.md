@@ -39,8 +39,9 @@ https://zariyaa.github.io/OneOnOneTherapy/#:~:text=INTERESTED%3F%20AVAIL%20NOW!
 
 and phhotos from all ouotside participathoon 
 
-    2021 dec- snist hydrabad robowars 1st 2nd 3rd (decepticons x grobots)
     2021 feb - projections parul univeristy guzrat, drone 3rd nirbhay chaudhari and chaitnaya gupta
+    2021 dec- snist hydrabad robowars 1st 2nd 3rd (decepticons x grobots)
+    
     2022- dtu- nirbhay chaudhari drone 1st
     AKTU zonals dec 2022- robowar roborace and drone me 1st 
     aktu states - 2023 march - robwar roborace drone 1st gold medal  - 
