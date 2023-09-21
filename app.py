@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    page_title = 'Home'  # Set the default title
+    page_title = 'Grobots Club'  # Set the default title
     return render_template ("index.html", page_title=page_title)
 
 if __name__ == "__main__": 
