@@ -49,10 +49,11 @@ and phhotos from all ouotside participathoon
         robowar- ayush kumar singh it, snehil saxena it, aakanksh singh it, dheeraj kumar rajput ec
         drone - nirbhay chaudhari cs, aman katiyar it, 
     2023 feb- dtu- nirbhay chaudhari drone 1st, roborace 3rd 
-    2023 april iet lucknow - drone race 1st aman katiyar 
-    IIT ropar 2023 march - robowar 3rd(decepticons x grobots)
+     
+    IIT ropar 2023 march - robowar 3rd(  x grobots)
     jecrc college rajasthan - drone - 3rd 
     gl bajaj noida - noida 3rd - nirbhay
+    2023 april iet lucknow - drone race 1st aman katiyar
 
 
 Participate - 
@@ -62,10 +63,6 @@ Gla University Mathura, 2020
 IIT DHANBAD
 IIT JODHPUR
 IIT BOMBAY 
-
-
-
-
 
 
 team page
