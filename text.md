@@ -43,7 +43,9 @@ and phhotos from all ouotside participathoon
     2021 dec- snist hydrabad robowars 1st 2nd 3rd (decepticons x grobots)
     
     2022- dtu- nirbhay chaudhari drone 1st
-    AKTU zonals dec 2022- robowar roborace and drone me 1st 
+
+AKTU zonals 
+    dec 2022- robowar roborace and drone me 1st 
     aktu states - 2023 march - robwar roborace drone 1st gold medal  - 
         roborace- vivek singh it4  , ayush kumar singh it 4th, taha yaseen alvi ec 4th, ankit shukla ec
         robowar- ayush kumar singh it, snehil saxena it, aakanksh singh it, dheeraj kumar rajput ec
@@ -51,6 +53,7 @@ and phhotos from all ouotside participathoon
     2023 feb- dtu- nirbhay chaudhari drone 1st, roborace 3rd 
      
     IIT ropar 2023 march - robowar 3rd(  x grobots)
+    
     jecrc college rajasthan - drone - 3rd 
     gl bajaj noida - noida 3rd - nirbhay
     2023 april iet lucknow - drone race 1st aman katiyar

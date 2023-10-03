@@ -23,13 +23,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180"
-        href="{{ url_for('static', filename='assets/Favicon/apple-touch-icon.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32"
-        href="{{ url_for('static', filename='assets/Favicon/favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16"
-        href="{{ url_for('static', filename='assets/Favicon/favicon-16x16.png') }}">
-    <link rel="manifest" href="{{ url_for('static', filename='assets/Favicon/site.webmanifest') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static', filename='assets/favicons/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static', filename='assets/favicons/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static', filename='assets/favicons/favicon-16x16.png')}}">
+    <link rel="manifest" href="{{url_for('static', filename='assets/favicons/site.webmanifest')}}">
+
+
 
     <!-- Add this CSS code to your stylesheet -->
     <style>
