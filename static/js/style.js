@@ -8,4 +8,4 @@ import {
     initTE,
   } from "tw-elements";
   
-  initTE({ Collapse, Ripple });
+  initTE({ Collapse, Ripple }); 

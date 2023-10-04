@@ -1,0 +1,110 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+
+
+
+<section style="margin-top: 5%;">
+   
+    <main class="px-4 sm:px-6 lg:px-8 z-10">
+       
+      
+        <div class="text-center">
+            <h2 class="text-4xl tracking-tight leading-10 font-medium sm:text-5xl text-black sm:leading-none underline md:text-6xl" style="font-family: 'Borel', cursive;">
+            <span class="text-blue-600 font-bold underline">Moments @ 
+                </span> Grobots    
+            </h2>
+        </div>
+    </main>
+</section>
+
+
+<section id="lamarts" class="" style="margin-top: 5%;">
+
+    <div class="text-center">
+        
+        <h2 class="text-4xl tracking-tight leading-10 font-medium sm:text-5xl text-gray-500 sm:leading-none md:text-6xl underline"  style="font-family: 'Borel', cursive;"> 
+            La Martiniere Girls College, Lucknow
+        </h2>
+      </div>
+
+    <div class="grid grid-cols-4 gap-2">
+
+        {% for i in range(1, 19) %}
+       <div class="class="flex items-center justify-center h-screen">
+        <div class="relative aspect-w-1 aspect-h-1 shadow-lg">
+            <img class="h-auto max-w-full rounded-lg" src="{{ url_for('static', filename='assets/images/empYoungMinds/lamartz/' ~ i ~ '..jpg')}}" alt="{{ i }}">
+        </div>
+    </div>
+        {% endfor %}
+        
+    </div>
+</section>
+
+<section id="studyhall" class="" style="margin-top: 5%;">
+
+    <div class="text-center">
+        
+        <h2 class="text-4xl tracking-tight leading-10 font-medium sm:text-5xl text-gray-500 sm:leading-none md:text-6xl underline"  style="font-family: 'Borel', cursive;"> 
+            Study Hall School, Lucknow
+        </h2>
+      </div>
+
+    <div class="grid grid-cols-4 gap-2">
+
+        {% for i in range(1, 13) %}
+        <div class="relative aspect-w-1 aspect-h-1 shadow-lg">
+            <img class="h-auto max-w-full rounded-lg" src="{{ url_for('static', filename='assets/images/empYoungMinds/studyhall/' ~ i ~ '..jpg')}}" alt="{{ i }}">
+        </div>
+        
+        {% endfor %}
+        
+    </div>
+</section>
+
+<section id="gantavya" class="" style="margin-top: 5%;">
+
+    <div class="text-center">
+        
+        <h2 class="text-4xl tracking-tight leading-10 font-medium sm:text-5xl text-gray-500 sm:leading-none md:text-6xl underline"  style="font-family: 'Borel', cursive;"> 
+            Gantavya; A Glimpse
+        </h2>
+      </div>
+
+    <div class="grid grid-cols-3 gap-2">
+
+        {% for i in range(1, 19) %}
+        <div class="relative aspect-w-1 aspect-h-1 shadow-lg">
+            <img class="h-auto max-w-full rounded-lg" src="{{ url_for('static', filename='assets/images/empYoungMinds/gantavya/' ~ i ~ '..jpg')}}" alt="{{ i }}">
+        </div>
+        
+        {% endfor %}
+        
+    </div>
+</section>
+
+<section id="Funmoments" class="" style="margin-top: 5%;">
+
+    <div class="text-center">
+        
+        <h2 class="text-4xl tracking-tight leading-10 font-medium sm:text-5xl text-gray-500 sm:leading-none md:text-6xl underline"  style="font-family: 'Borel', cursive;"> 
+            Behind The Scenes
+        </h2>
+      </div>
+
+    <div class="grid grid-cols-3 gap-2">
+
+        {% for i in range(1, 34) %}
+        <div class="relative aspect-w-1 aspect-h-1 shadow-lg">
+            <img class="h-auto max-w-full rounded-lg" src="{{ url_for('static', filename='assets/images/empYoungMinds/bts/' ~ i ~ '..jpg')}}" alt="{{ i }}">
+        </div>
+        
+        {% endfor %}
+        
+    </div>
+</section>
+
+
+
+{% endblock %}

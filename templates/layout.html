@@ -125,6 +125,10 @@
         }
     }
 
+
+
+
+
     </style>
 
 </head> 
@@ -166,8 +170,8 @@
                           
                             <a href="https://tally.so/r/wzMyeg"
                                 class="flex flex-row items-center px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:block hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">Feedback Form</a>
-                            <a href=""
-                                class="flex flex-row items-center px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:block hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">Members</a>
+                            <a href="/Gallery"
+                                class="flex flex-row items-center px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:block hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">Gallery</a>
                             <div @click.away="open = false" class="relative" x-data="{ open: false }">
                                 <button @click="open = !open"
                                     class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:block hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
@@ -217,13 +221,17 @@
                             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                         </svg>
                     </a> -->
-                    <a class="ml-3 text-gray-500" href="https://www.instagram.com/grobotsclub/" target="_blank">
+
+                    <hr>
+                    <a class="flex items-center ml-3 text-gray-500" href="https://www.instagram.com/grobotsclub/" target="_blank">
+                        <p class="text-left">@GrobotsClub</p>
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" id="instagram">
+                             stroke-width="2" class="w-5 h-5 ml-1" viewBox="0 0 24 24" id="instagram">
                             <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                             <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                         </svg>
                     </a>
+                    
                     <!-- <a class="ml-3 text-gray-500" href="#">
                         <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24" id="linkedin">
@@ -233,9 +241,16 @@
                             <circle cx="4" cy="4" r="2" stroke="none"></circle>
                         </svg>
                     </a> -->
+
                 </span>
             </div>
         </div>
+
+        <p class="text-center md:text-left text-gray-500 flex items-center ml-3 text-sm italic">
+            Note: The website is still under development. Some features may be unavailable
+        </p>
+        
+        
     </footer>
 </body>
 
