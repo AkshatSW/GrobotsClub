@@ -1,3 +1,24 @@
+**Website hosted on render.com 
+**Email: akshatsrivastava200213@gmail.com
+** For any admin changes, please contact developer  
+    
+Todo for the website:
+1. Build the about us page
+    - add custom keywords, check chatgpt for the details
+    
+2. Change the front page banner, change it to the shanvi wala banner - check 'bg.html' file added by shanvi, change the text and logo 
+
+3. Fix bugs in the gallery and change the presentation of images, check the 'tailwind gallery' template for refrences
+
+4. Timeline me events or college ka nam galat hai fix karo 
+
+5. BPIT aur IIT Delhi ka add karna hai 
+
+6. sabka insta ka link sahi karna hai 
+
+7. Add achievement - aktu states (also mention abhishek upadayay)
+
+
 https://www.facebook.com/club.grobots/
 
 

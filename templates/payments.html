@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UPI Payment Button</title>
+</head>
+<body>
+
+<button onclick="makeUPIPayment()">Make UPI Payment</button>
+
+<script>
+function makeUPIPayment() {
+    var upiAddress = 'akshatsrivastava200213@okicici'; // Replace with the actual UPI address
+    var amount = '1'; // Replace with the desired amount
+    var description = 'Payment for goods/services'; // Replace with your description
+
+    var url = 'upi://pay?pa=' + upiAddress + '&pn=RecipientName&mc=1234&tid=123456&tr=1234&am=' + amount + '&cu=INR&url=www.example.com';
+    window.location.href = url;
+}
+</script>
+
+</body>
+</html>
