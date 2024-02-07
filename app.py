@@ -8,12 +8,12 @@ def Home():
     return render_template ("index.html", page_title=page_title)
 
 
-@app.route('/Gallery')
+@app.route('/gallery')
 def Gallery():
     page_title = 'Gallery'
     return render_template("gallery.html", page_title=page_title)
 
-@app.route('/AboutUs')
+@app.route('/aboutus')
 def AboutUs():
     page_title='AboutUs'
     return render_template("aboutus.html", page_title=page_title)
