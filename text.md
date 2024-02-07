@@ -18,6 +18,7 @@ Todo for the website:
 
 7. Add achievement - aktu states (also mention abhishek upadayay)
 
+8. Change font in the gallery section, make use of more formal fonts instead of aisa random fonts. 
 
 https://www.facebook.com/club.grobots/
 

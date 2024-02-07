@@ -13,6 +13,11 @@ def Gallery():
     page_title = 'Gallery'
     return render_template("gallery.html", page_title=page_title)
 
+@app.route('/AboutUs')
+def AboutUs():
+    page_title='AboutUs'
+    return render_template("aboutus.html", page_title=page_title)
+
 if __name__ == "__main__": 
     app.run(debug=True, host="0.0.0.0") 
 
