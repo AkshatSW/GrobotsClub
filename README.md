@@ -3,10 +3,10 @@
 Welcome to the Grobots Website project! We're excited to have you contribute. Follow these steps to get started:
 
 ## Prepared by
-- Akshat Srivastava
-- Shanvi Shukla
-- Anuj Dubey
-- Devesh Agarwal
+**Handled by:**
+Akshat Srivastava
+**Contributors:**
+Devesh Agarwal
 
 
 ## Prerequisites
