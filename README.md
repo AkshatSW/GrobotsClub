@@ -6,6 +6,8 @@ Welcome to the Grobots Website project! We're excited to have you contribute. Fo
 - Akshat Srivastava
 - Shanvi Shukla
 - Anuj Dubey
+- Devesh Agarwal
+
 
 ## Prerequisites
 
