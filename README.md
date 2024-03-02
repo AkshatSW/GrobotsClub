@@ -5,6 +5,7 @@ Welcome to the Grobots Website project! We're excited to have you contribute. Fo
 ## Prepared by
 **Handled by:**
 Akshat Srivastava
+
 **Contributors:**
 Devesh Agarwal
 
@@ -16,11 +17,11 @@ Before you start contributing, make sure you have the following prerequisites in
 1. **Create a New Virtual Environment and Activate It:**
    - Set up a new virtual environment to isolate your project dependencies:
      ```
-     python3 -m venv grobots-env
+     python3 -m venv .env
      ```
    - Activate the virtual environment:
-     - On Windows: `grobots-env\Scripts\activate`
-     - On macOS and Linux: `source grobots-env/bin/activate`
+     - On Windows: `.env\Scripts\activate`
+     - On macOS and Linux: `source .env/bin/activate`
 
 2. **Install Python3 and Flask:**
    - Make sure you have Python 3.x installed on your system.
@@ -49,9 +50,9 @@ Before you start contributing, make sure you have the following prerequisites in
 
 3. **Activate the Virtual Environment: **
    - Ensure that your virtual environment is activated:
-     - On Windows: `grobots-env\Scripts\activate`
-     - On macOS and Linux: `source grobots-env/bin/activate`
-     - Additionally you can press ctrl+p, and create a new enviormnent`
+     - On Windows: `.env\Scripts\activate`
+     - On macOS and Linux: `source .env/bin/activate`
+     - Additionally you can press ctrl+p, and create a new environment
 
 4. **Create a New Branch:**
    - Create a new branch for your changes:
@@ -88,7 +89,7 @@ Before you start contributing, make sure you have the following prerequisites in
    - Click "Create Pull Request" to submit.
 
 9. **Review and Discuss:**
-   - Engage in the discussion about your PR.
+   - I'd appreciate it if you could engage in the discussion about your PR.
    - Make any necessary changes based on feedback.
 
 10. **Merge or Close:**
