@@ -3,7 +3,7 @@
 Welcome to the Grobots Website project! We're excited to have you contribute. Follow these steps to get started:
 
 ## Prepared by
-**Handled by:**
+**Built, Handled and Managed by:**
 Akshat Srivastava
 
 **Contributors:**
